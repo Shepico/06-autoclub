@@ -1,0 +1,116 @@
+/*шрифты*/
+ @font-face {
+    font-family: MyriadProRegular; /* Гарнитура шрифта */
+    src: local("MyriadProRegular"),
+      url("../fonts/MyriadPro-Regular.woff2") format("woff2"),
+      url("../fonts/MyriadPro-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+ }  
+/*вспомогательные классы*/
+
+/*чтобы картинки не уходили за границы*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Класс для того, чтобы контейнер float разметки "видел" их */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*КОНЕЦ Вспомогательны классы*/
+
+body {
+    /*позиционирование*/
+    
+    /*блочная модель*/
+    width: 1032px;
+    margin: auto;
+    
+    /*типографика*/
+        font-family: Arial, "Tahoma", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 18px;
+    /*оформление*/
+    
+    background-color: #ffffff;
+    color: #000000;
+    /*анимация*/
+    /*разное*/
+}
+
+header {
+  height: 347px;  
+}
+
+footer {
+  height: 128px;
+  background-color: #333333;
+}
+.logo-area {
+  height: 128px;
+}
+
+.logoimg {
+  display: block;
+  width: 287px;
+  height: 100%;
+  
+ /* background: url("../img/logo.png") no-repeat;
+  background-size: cover;*/
+}
+
+.hat-area {
+  height: 168px;  
+  border-top: solid 1px #ebebeb;
+  border-bottom: solid 1px #ebebeb;
+}
+
+.hat-area-green {
+  height: 150px;
+  margin-top: 9px;
+  background-color: #0f3b24;
+}
+
+.hat-area-green-top{
+  height: 85px;
+  background: url("../img/intro.png");  
+}
+
+.hat-area-green-bottom{
+  height: 65px;
+  box-shadow: inset 0 4px 20px 1px darkgrey;
+}
+
+.topmenu {
+  /*height: 40px;*/
+  margin: 20px 0;
+  padding: 0;
+  
+}
+
+.topmenu li {
+  display: inline;
+  /*height: 33px;*/
+  padding: 9px 11px; 
+  font-size: 15px;
+  line-height: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.topmenu li:hover {
+  color: #ffffff;
+  background-color: #0f3b24; 
+}
+
+.auto-area {
+  position: absolute;
+  top: 50px;
+  left: 416px;
+}
