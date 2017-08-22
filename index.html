@@ -12,29 +12,126 @@
   <body>
     <header>
       <div class="logo-area">
-        <a class="logoimg" href="/"><img src="img/logo.png"></a>
+        <a class="logoimg" href="/"><img src="img/logo-green167x117.png"></a>
       </div>
       <div class="hat-area">
         <div class="hat-area-green">
           <div class="hat-area-green-top"></div>
-          <div class="hat-area-green-bottom"></div>
+          <div class="hat-area-green-bottom">
+            <a class="hat-area-green-bottom-link" href="/">Сделать домашней</a>
+            <a class="hat-area-green-bottom-link" href="/">Добавить в закладки</a>
+            <a class="hat-area-green-bottom-link rsslink" href="/">Чтение RSS</a>
+          </div>  
         </div>  
       </div>
       <div class="auto-area">
         <img src="img/auto-intro.png" alt="автомобиль">
       </div>
-      <nav> 
-        <ul  class="topmenu">
-          <li>Главная</li>
-          <li>Форум</li>
-          <li>Новости</li>
-          <li>Отчетность</li>
-          <li>Галерея</li>
-          <li>Контакты</li>
-        </ul>
-      </nav>
+      <div class="menu-search-area clearfix">
+        <nav> 
+          <ul  class="topmenu">
+            <li>Главная</li>
+            <li>Форум</li>
+            <li>Новости</li>
+            <li>Отчетность</li>
+            <li>Галерея</li>
+            <li>Контакты</li>
+          </ul>
+        </nav>
+        <div class="search-area"> </div>
+      </div>  
     </header>
-    <main>
+    <main class="clearfix">
+      <div class="main-left">
+        <ul class = "navigation-menu block-column">
+          <h2>Навигация</h2>
+          <li>Новости</li>
+          <li>Обзоры</li>
+          <li>Вопрос-ответ</li>
+          <li>Каталог файлов</li>
+          <li>Дружественные сайты</li>
+          <li>Форум поддержки</li>
+          <li>Пользователи</li>
+        </ul> 
+          <div class="quest-answer block-column">
+            <h2 class="quest-answer-h2">Вопрос-ответ</h2>
+            <a class="quest-answer-link" href=#>Разбираете ли вы автомобили?</a>
+            <a class="quest-answer-link" href=#>Что такое техосмотр?</a>
+            <a class="quest-answer-link" href=#>Для чего нужен прибор?</a>
+            <a class="quest-answer-link" href=#>Что такой Башмак?</a>
+            <a class="quest-answer-link" href=#>Куда вставить поршень??</a>
+          </div>
+      </div>
+      <div class="main-center">
+        <article class="article-object">
+          <h1>Базовый лагерь Автопробега 2017 г.</h1>
+          <div class="article-object-date">Дата: 03.05.2017</div>
+          <section>
+            Администрация сельского поселения Светлое Поле Красноярского района Самарской области согласовала размещение базового лагеря VIII Патриотического автопробега "Ветеранам глубинки - заботу и внимание" 2017 года.Главное условие - чистота и порядок после сворачивания лагеря.Место размещения лагеря - рядом с кольцевой развязкой Димитровград/Мирный/М5/Красный Яр, неподалёкy от районного центра Красный Яр.
+          </section>
+          <div class="article-object-footer">
+            <div class="article-object-autor">Разместил:
+              <a class="article-object-autor-link" href="/">jerek</a>
+            </div>  
+            <div class="article-object-read">Прочитано: 13</div>
+          </div>
+        </article>
+        <div class="extra-article">
+          <h2>Ранее</h2>
+          <article class="extra-article-news">
+            <div class="extra-article-date">15.04.2017</div>
+            <a class="extra-article-header">Народный праздник Масленица</a>         
+          </article>          
+          <article class="extra-article-news">
+            <div class="extra-article-date">15.02.2017</div>
+            <a class="extra-article-header">Открыта запись на АВТОПРОБЕГ-2017</a>         
+          </article>          
+        </div>
+      </div>
+      <div class="main-right clearfix">
+        <div class="news-column block-column">
+          <h2>Новости</h2>
+          <div class="news-column-news">
+            <div class="news-date">20.08.2017</div>
+            <div class="news-content">Компания Mazda оформила сертификационные документы на большой семиместный кроссовер Mazda CX-9</div>
+          </div>
+          <div class="news-column-news">
+            <div class="news-date">19.08.2017</div>
+            <div class="news-content">В Италии по просьбе миллионеров воскресили культовый суперкар</div>
+          </div>
+          <div class="news-column-news">
+            <div class="news-date">17.08.2017</div>
+            <div class="news-content">Porsche рассказал, как испытывал новый Cayenne</div>
+          </div>
+          <div class="news-column-news">
+            <div class="news-date">17.08.2017</div>
+            <div class="news-content">Почему Европа вдруг разлюбила дизели (и что будет вместо них)</div>
+          </div>
+        </div>
+        <div class="interview">
+          <h2>Опрос</h2>
+          <h3>Какой у Вас автомобиль?</h3>
+          <form>
+            <input type="radio" name="varone">
+            <label for="varone">Газ</label>
+            
+            <input type="radio" name="vartwo">
+            <label for="vartwo">Ваз</label>
+            
+            <input type="radio" name="varthree">
+            <label for="varthree">Уаз</label>
+            
+            <input type="submit" name="button-submit">
+            <label for="button-submit">Голос</label>           
+          </form>
+          <a class="interview-result">Результат</a>
+          <a class="interview-other">Другие опросы</a>
+          <div class="interview-total-votes">Всего голосов:144</div>
+          <div class="interview-comment">Комментарий:1</div>  
+          
+        </div>
+      </div>
+      <div class="green-line"></div>
     </main>
     <footer>
     </footer>
