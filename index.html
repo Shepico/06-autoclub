@@ -11,9 +11,29 @@
   </head>
   <body>
     <header>
-      <div class="logo-area">
-        <a class="logoimg" href="/"><img src="img/logo-green167x117.png"></a>
-      </div>
+      <div class="logo-wraper clearfix">
+        <div class="logo-area">
+          <a class="logoimg" href="/"><img src="img/logo-green167x117.png"></a>
+        </div>
+        <div class="logo-login">
+          <label for="loginname">Логин:</label>
+          <input type="text" name="loginname">
+          
+          <label for="passname">Пароль:</label>
+          <input type="text" name="passname">
+          
+          <button type="submin">Войти</button>
+          <div class="logo-login-other">
+            <a href="#">Регистрация</a>
+            <a href="#">Забыли пароль?</a>
+            <div class="logo-login-socnet">
+              <div class="logo-login-socnet-vk"> </div>
+              <div class="logo-login-socnet-fb"> </div> 
+            </div>
+            
+          </div>
+        </div>
+      </div>  
       <div class="hat-area">
         <div class="hat-area-green">
           <div class="hat-area-green-top"></div>
@@ -41,99 +61,117 @@
         <div class="search-area"> </div>
       </div>  
     </header>
-    <main class="clearfix">
-      <div class="main-left">
-        <ul class = "navigation-menu block-column">
-          <h2>Навигация</h2>
-          <li>Новости</li>
-          <li>Обзоры</li>
-          <li>Вопрос-ответ</li>
-          <li>Каталог файлов</li>
-          <li>Дружественные сайты</li>
-          <li>Форум поддержки</li>
-          <li>Пользователи</li>
-        </ul> 
-          <div class="quest-answer block-column">
-            <h2 class="quest-answer-h2">Вопрос-ответ</h2>
-            <a class="quest-answer-link" href=#>Разбираете ли вы автомобили?</a>
-            <a class="quest-answer-link" href=#>Что такое техосмотр?</a>
-            <a class="quest-answer-link" href=#>Для чего нужен прибор?</a>
-            <a class="quest-answer-link" href=#>Что такой Башмак?</a>
-            <a class="quest-answer-link" href=#>Куда вставить поршень??</a>
-          </div>
-      </div>
-      <div class="main-center">
-        <article class="article-object">
-          <h1>Базовый лагерь Автопробега 2017 г.</h1>
-          <div class="article-object-date">Дата: 03.05.2017</div>
-          <section>
-            Администрация сельского поселения Светлое Поле Красноярского района Самарской области согласовала размещение базового лагеря VIII Патриотического автопробега "Ветеранам глубинки - заботу и внимание" 2017 года.Главное условие - чистота и порядок после сворачивания лагеря.Место размещения лагеря - рядом с кольцевой развязкой Димитровград/Мирный/М5/Красный Яр, неподалёкy от районного центра Красный Яр.
-          </section>
-          <div class="article-object-footer">
-            <div class="article-object-autor">Разместил:
-              <a class="article-object-autor-link" href="/">jerek</a>
-            </div>  
-            <div class="article-object-read">Прочитано: 13</div>
-          </div>
-        </article>
-        <div class="extra-article">
-          <h2>Ранее</h2>
-          <article class="extra-article-news">
-            <div class="extra-article-date">15.04.2017</div>
-            <a class="extra-article-header">Народный праздник Масленица</a>         
-          </article>          
-          <article class="extra-article-news">
-            <div class="extra-article-date">15.02.2017</div>
-            <a class="extra-article-header">Открыта запись на АВТОПРОБЕГ-2017</a>         
-          </article>          
+    <main>
+      <div class="wrapper-main clearfix">
+        <div class="main-left">
+          <ul class = "navigation-menu block-column">
+            <div class="header header-navigation-menu">Навигация</div>
+            <li>Новости</li>
+            <li>Обзоры</li>
+            <li>Вопрос-ответ</li>
+            <li>Каталог файлов</li>
+            <li>Дружественные сайты</li>
+            <li>Форум поддержки</li>
+            <li>Пользователи</li>
+          </ul> 
+            <div class="quest-answer block-column">
+              <div class="header quest-answer-h2">Вопрос-ответ</div>
+              <a class="quest-answer-link" href=#>Разбираете ли вы автомобили?</a>
+              <a class="quest-answer-link" href=#>Что такое техосмотр?</a>
+              <a class="quest-answer-link" href=#>Для чего нужен прибор?</a>
+              <a class="quest-answer-link" href=#>Что такой Башмак?</a>
+              <a class="quest-answer-link" href=#>Куда вставить поршень??</a>
+            </div>
         </div>
-      </div>
-      <div class="main-right clearfix">
-        <div class="news-column block-column">
-          <h2>Новости</h2>
-          <div class="news-column-news">
-            <div class="news-date">20.08.2017</div>
-            <div class="news-content">Компания Mazda оформила сертификационные документы на большой семиместный кроссовер Mazda CX-9</div>
-          </div>
-          <div class="news-column-news">
-            <div class="news-date">19.08.2017</div>
-            <div class="news-content">В Италии по просьбе миллионеров воскресили культовый суперкар</div>
-          </div>
-          <div class="news-column-news">
-            <div class="news-date">17.08.2017</div>
-            <div class="news-content">Porsche рассказал, как испытывал новый Cayenne</div>
-          </div>
-          <div class="news-column-news">
-            <div class="news-date">17.08.2017</div>
-            <div class="news-content">Почему Европа вдруг разлюбила дизели (и что будет вместо них)</div>
+        <div class="main-center">
+          <article class="article-object">
+            <h1>Базовый лагерь Автопробега 2017 г.</h1>
+            <div class="article-object-date">Дата: 03.05.2017</div>
+            <section>
+              Администрация сельского поселения Светлое Поле Красноярского района Самарской области согласовала размещение базового лагеря VIII Патриотического автопробега "Ветеранам глубинки - заботу и внимание" 2017 года.Главное условие - чистота и порядок после сворачивания лагеря.Место размещения лагеря - рядом с кольцевой развязкой Димитровград/Мирный/М5/Красный Яр, неподалёкy от районного центра Красный Яр.
+            </section>
+            <div class="article-object-footer clearfix">
+              <div class="article-object-autor">Разместил:
+                <a class="article-object-autor-link" href="/">jerek</a>
+              </div>  
+              <div class="article-object-read">Прочитано: 13</div>
+            </div>
+          </article>
+          <div class="extra-article">
+            <h2>Ранее</h2>
+            <article class="extra-article-news">
+              <div class="extra-article-date">15.04.2017</div>
+              <a class="extra-article-header" href="#">Народный праздник Масленица</a>         
+            </article>          
+            <article class="extra-article-news">
+              <div class="extra-article-date">15.02.2017</div>
+              <a class="extra-article-header" href="#">Открыта запись на АВТОПРОБЕГ-2017</a>         
+            </article>          
           </div>
         </div>
-        <div class="interview">
-          <h2>Опрос</h2>
-          <h3>Какой у Вас автомобиль?</h3>
-          <form>
-            <input type="radio" name="varone">
-            <label for="varone">Газ</label>
+        <div class="main-right">
+          <div class="news-column block-column">
+            <div class="header header-news">Новости</div>
+            <div class="news-column-news">
+              <div class="news-date">20.08.2017</div>
+              <div class="news-content">Компания Mazda оформила сертификационные документы на большой семиместный кроссовер Mazda CX-9</div>
+            </div>
+            <div class="news-column-news">
+              <div class="news-date">19.08.2017</div>
+              <div class="news-content">В Италии по просьбе миллионеров воскресили культовый суперкар</div>
+            </div>
+            <div class="news-column-news">
+              <div class="news-date">17.08.2017</div>
+              <div class="news-content">Porsche рассказал, как испытывал новый Cayenne</div>
+            </div>
+            <div class="news-column-news">
+              <div class="news-date">17.08.2017</div>
+              <div class="news-content">Почему Европа вдруг разлюбила дизели (и что будет вместо них)</div>
+            </div>
+          </div>
+          <div class="interview">
+            <h2>Опрос</h2>
+            <h3>Какой у Вас автомобиль?</h3>
+            <form>
+              <input type="radio" name="varone">
+              <label for="varone">Газ</label>
+              
+              <input type="radio" name="vartwo">
+              <label for="vartwo">Ваз</label>
+              
+              <input type="radio" name="varthree">
+              <label for="varthree">Уаз</label>
+              
+              <button type=submit">Голос</button>
+          
+            </form>
+            <a class="interview-sign interview-result" href="#">Результат</a>
+            <a class="interview-sign interview-other" href="#">Другие опросы</a>
+            <div class="interview-sign interview-total-votes">Всего голосов:144</div>
+            <div class="interview-sign interview-comment">Комментарий:1</div>  
             
-            <input type="radio" name="vartwo">
-            <label for="vartwo">Ваз</label>
-            
-            <input type="radio" name="varthree">
-            <label for="varthree">Уаз</label>
-            
-            <input type="submit" name="button-submit">
-            <label for="button-submit">Голос</label>           
-          </form>
-          <a class="interview-result">Результат</a>
-          <a class="interview-other">Другие опросы</a>
-          <div class="interview-total-votes">Всего голосов:144</div>
-          <div class="interview-comment">Комментарий:1</div>  
+          </div>
+        </div>
+      </div>        
+    </main>
+    <div class="green-line"></div>
+    <footer class="clearfix">
+      <div class="footer-wraper">
+        <div class="footer-copyright">
+          Copyright 2017 &copy; <br>
+          УАЗ Патриот Клуб Самара        
           
         </div>
-      </div>
-      <div class="green-line"></div>
-    </main>
-    <footer>
+        <div class="footer-designer">
+          Дизайн Shepico
+        </div>
+      </div>  
+      <ul class="footer-menu">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Регистрация</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+      
     </footer>
   <!--Скрипты сайта-->
   </body>
