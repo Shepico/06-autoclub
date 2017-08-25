@@ -11,24 +11,36 @@
   </head>
   <body>
     <header>
+      <div class="auto-area">
+        <img src="img/auto-intro.png" alt="автомобиль">
+      </div>
       <div class="logo-wraper clearfix">
         <div class="logo-area">
           <a class="logoimg" href="/"><img src="img/logo-green167x117.png"></a>
         </div>
         <div class="logo-login">
-          <label for="loginname">Логин:</label>
-          <input type="text" name="loginname">
-          
-          <label for="passname">Пароль:</label>
-          <input type="text" name="passname">
-          
-          <button type="submin">Войти</button>
+          <div class="logo-login-wrapper clearfix">
+            <div class="logo-login-left clearfix">
+              <div class="field">  
+                <label for="loginname">Логин:</label>
+                <input type="text" name="loginname">
+              </div>
+              <div class="field">  
+                <label for="passname">Пароль:</label>
+                <input type="text" name="passname">
+              </div>  
+            </div>  
+            <button type="submit" class="logo-login-right">
+              <a class="logo-login-right-button-label" href="#">Войти</a>
+            </button>
+            
+          </div>  
           <div class="logo-login-other">
             <a href="#">Регистрация</a>
             <a href="#">Забыли пароль?</a>
             <div class="logo-login-socnet">
-              <div class="logo-login-socnet-vk"> </div>
-              <div class="logo-login-socnet-fb"> </div> 
+              <div class="logo-login-socnet-vk"><a href="#"><img src="img/vk.png"></a></div>
+              <div class="logo-login-socnet-fb"><a href="#"><img src="img/fb.jpg"></a></div> 
             </div>
             
           </div>
@@ -44,9 +56,7 @@
           </div>  
         </div>  
       </div>
-      <div class="auto-area">
-        <img src="img/auto-intro.png" alt="автомобиль">
-      </div>
+      
       <div class="menu-search-area clearfix">
         <nav> 
           <ul  class="topmenu">
@@ -56,6 +66,12 @@
             <li>Отчетность</li>
             <li>Галерея</li>
             <li>Контакты</li>
+              <!--<ul class="topmenu-second">
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Документы</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>  -->
+            
           </ul>
         </nav>
         <div class="search-area"> </div>
@@ -76,11 +92,13 @@
           </ul> 
             <div class="quest-answer block-column">
               <div class="header quest-answer-h2">Вопрос-ответ</div>
-              <a class="quest-answer-link" href=#>Разбираете ли вы автомобили?</a>
-              <a class="quest-answer-link" href=#>Что такое техосмотр?</a>
-              <a class="quest-answer-link" href=#>Для чего нужен прибор?</a>
-              <a class="quest-answer-link" href=#>Что такой Башмак?</a>
-              <a class="quest-answer-link" href=#>Куда вставить поршень??</a>
+              <div class="quest-answer-grupp">
+                <a class="quest-answer-link" href="#">Разбираете ли вы автомобили?</a>
+                <a class="quest-answer-link" href="#">Что такое техосмотр?</a>
+                <a class="quest-answer-link" href="#">Для чего нужен прибор?</a>
+                <a class="quest-answer-link" href="#">Что такой Башмак?</a>
+                <a class="quest-answer-link" href="#">Куда вставить поршень??</a>
+              </div>  
             </div>
         </div>
         <div class="main-center">
@@ -132,16 +150,16 @@
           <div class="interview">
             <h2>Опрос</h2>
             <h3>Какой у Вас автомобиль?</h3>
-            <form>
-              <input type="radio" name="varone">
-              <label for="varone">Газ</label>
-              
-              <input type="radio" name="vartwo">
-              <label for="vartwo">Ваз</label>
-              
-              <input type="radio" name="varthree">
-              <label for="varthree">Уаз</label>
-              
+            <form class="clearfix">
+                <input type="radio" name="varone">
+                <label for="varone">Газ</label>
+
+                <input type="radio" name="vartwo">
+                <label for="vartwo">Ваз</label>
+
+                <input type="radio" name="varthree">
+                <label for="varthree">Уаз</label>
+
               <button type=submit">Голос</button>
           
             </form>
