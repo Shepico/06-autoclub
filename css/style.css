@@ -47,8 +47,7 @@ body {
 
 header {
   position: relative;
-  height: 360px;  
-  
+  height: 360px;    
 }
 
 /*nav {
@@ -56,14 +55,18 @@ header {
 }*/
 
 main {
+  margin-top: 0;
+  margin-bottom: 5px;
   padding: 30px  26px;  
+  border-top: solid 1px #ebebeb;  
+  border-bottom: solid 1px #ebebeb;  
   
 }
 
 footer {
-  height: 70px;
+  height: 80px;
   margin: 0;
-  padding: 18px 40px;  
+  padding: 16px 40px;  
   font-size: 11px;
   line-height: 15px;
   background-color: #515151;
@@ -93,6 +96,28 @@ a {
   left: 316px;
 }
 
+.green-line-small {
+  height: 5px;
+  background-color: #0f3b24; 
+}
+
+.grey-line-top {
+  height: 3px;
+  margin-top: 5px;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+    
+}
+.logo-wraper {
+  height: 112px; 
+  margin-bottom: 3px;
+  border-bottom: solid 1px #ebebeb;
+  
+}
+.logo-area {
+  float: left;  
+}
+
 .logoimg {
   display: block;
   width: 287px;
@@ -102,16 +127,10 @@ a {
   background-size: cover;*/
 }
 
-
-
-.logo-area {
-  float: left;
-  height: 126px;
-}
-
 .logo-login {
   float: right;
   width: 250px;
+  margin-right: 25px;
   padding-top: 28px;
   font-size: 11px;
   line-height: 20px;
@@ -138,7 +157,7 @@ a {
 
 .logo-login-left input[type="text"] {
   /*display: inline-block;*/  
-  width: 115px;
+  width: 113px;
   height: 19px;
   margin-bottom: 6px;
   padding: 0;  
@@ -179,7 +198,7 @@ a {
 
 .logo-login-right-button-label {
   position: absolute;
-  top: 0px;
+  top: 0;
   right: -22px;
   display: inline-block;
   padding: 0 10px;
@@ -193,9 +212,9 @@ a {
 
 
 
-.logo-login-other {
-  margin: 10px 0;
-}
+/*.logo-login-other {
+  margin: 5px 0;
+}*/
 
 .logo-login-other a{
   display: display-inline;
@@ -227,9 +246,10 @@ a {
 }
 
 .hat-area-green {
-  height: 150px;
-  margin-top: 9px;
+  /*height: 150px;*/
+  margin-top: 5px;
   background-color: #0f3b24;
+  
 }
 
 .hat-area-green-top{
@@ -262,7 +282,9 @@ a {
 
 .menu-search-area {
   /*height: 33px;*/
-  padding: 20px 25px;
+  margin-top: 3px;
+  padding: 5px 25px;
+  border-top: 1px solid #ebebeb;
   border-bottom: solid 1px #ebebeb;
   /*background-color: green;*/
 }
@@ -287,38 +309,59 @@ a {
 
 .topmenu li:hover {
   color: #ffffff;
-  background-color: #0f3b24; 
+  background-color: #0f3b24;   
 }
 
-/*.topmenu li .topmenu-second{
+.topmenu li .topmenu-second{
   position: absolute;
-  top: 100%;
+  top: 75%;
+  left: 0;
   display: none;
+  width: 195px;
+  margin: 0;
+  padding: 0;  
+  padding-bottom: 10px;
+  background-color: #0f3b24; 
+  border-radius: 0 10px 10px 10px;
+  
 }
 
 .topmenu-second li {
   margin: 0;
-  padding:0;
+  padding:0;  
+  
 }
 
 .topmenu-second li>a {
   display: block;
   margin: 0;
-  padding:0;
+  padding:0  11px;
+  font-size: 12px;
+  line-height: 26px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0f3b24; 
+  border-bottom: 1px solid #0b301d;
+  
 }
 
 .topmenu li:hover .topmenu-second{
   display: block;
-} */
+}
+
+.topmenu-second li>a:hover {
+  background: repeating-linear-gradient(-45deg, #0b301d, #0b301d 1px, #0f3b24 1px, #0f3b24 4px);
+  box-shadow: inset 0 2px 2px 0 #0b301d;
+}
 
 
 .search-area{
   float: right;
   display: inline;  
-  height: 33px;
-  width: 240px;
-  margin: 0 10px;
-  padding-left: 0 10px;
+  height: 26px;
+  width: 209px;
+  margin: 7px 12px;
+  padding: 3px 10px;
   border: 1px solid #cacaca;
   border-radius: 10px;
   /*background-color: red;*/
@@ -327,7 +370,7 @@ a {
 .search-area:after {
   float: right;
   content: url("../img/search.png");
-  padding: 5px;
+  padding: 3px;
 }
 
 /**/
@@ -430,7 +473,8 @@ a {
 .main-right {
   float: right;
   display: inline;
-  width: 227px;
+  width: 210px;
+  margin-right: 16px;
   padding-left: 23px;
   
 }
@@ -445,7 +489,8 @@ a {
 }
 
 .header {
-  height: 36px;
+  height: 35px;
+  margin: 0;
   padding: 0 11px;
   font-size: 14px;
   line-height: 36px;
@@ -528,38 +573,38 @@ a {
 }
 
 .news-column {
-   padding: 13px 0;
+   padding-bottom: 13px;
   
 }
 
-.header-news{
+/*.header-news{
   /*width: 100%;
   height: 36px;
-  padding: 0 11px;
-  font-size: 14px;*/
-  line-height: 25px;
+  padding: 0 11px;*/
+  /*font-size: 14px;*/
+  /*line-height: 25px;*/
   /*font-weight: bold;
   background-image: linear-gradient(to top, #f5f5f5, #ffffff);
-  border-bottom: 1px solid #929292;*/
-}
+  border-bottom: 1px solid #929292;
+}*/
 
 .news-column-news{
   margin: 0 10px;
   /*padding: 11px 0;  */
   cursor : pointer;  
-  border-bottom: 1px dotted #929292;
+ border-bottom: 1px dotted #929292;
 }
 
 .news-date {
   margin: 0;
-  padding: 0;
+  padding-top: 8px;
   font-size: 10px;
-  line-height: 35px;
+  line-height: 18px;
   color: #929292;
 }
 
 .news-content {
-  padding-bottom: 12px;
+  padding-bottom: 5px;
   font-size: 13px;
   line-height: 17px;  
   text-decoration: underline;
@@ -602,7 +647,7 @@ a {
 
 .interview label {
   display: inline-block;
-  width: 160px;
+  width: 150px;
   margin: 0;
   padding: 0 7px;
   font-size: 13px;
@@ -649,7 +694,7 @@ a {
 }
 
 .footer-designer {
-  padding-top: 22px;
+  padding-top: 14px;
 }
 
 .footer-menu {
