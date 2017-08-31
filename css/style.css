@@ -30,6 +30,7 @@ body {
     
     width: 1032px;
     margin: auto;
+    margin: auto;
     
     /*типографика*/
     font-family: Arial, "Tahoma", sans-serif;
@@ -706,3 +707,127 @@ a {
 .footer-menu li>a{
   color: #ffffff; 
 }
+/**/
+@media screen and (max-width: 1024px) {
+
+    body {
+      width: 915px;      
+    }   
+    
+  .auto-area {
+    /*position: absolute;
+    top: 50px;*/
+    left: 216px;
+  } 
+  
+  .logoimg {
+  
+  width: 240px;
+    
+ /* background: url("../img/logo.png") no-repeat;
+  background-size: cover;*/
+}
+
+/*.main-left {
+  float:left;
+  display: inline;
+  width: 190px;
+  padding-right: 23px;
+  
+}
+
+.main-center {
+  float: left;
+  display: inline;
+  width: 494px;
+}*/
+
+.main-right {
+  display: none;
+  /*float: right;
+  display: inline;
+  width: 210px;
+  margin-right: 16px;
+  padding-left: 23px;*/
+  
+}
+ }
+ 
+ @media screen and (max-width: 800px) {
+
+    body {
+      width: 680px;      
+    }   
+    
+  .auto-area {
+    display: none;
+    /*position: absolute;
+    top: 50px;*/
+    /*left: 216px;*/
+  } 
+  
+  header {
+    height: 194px;   
+  }
+  
+  main {
+    margin: auto;
+    padding: 0;
+  }
+  
+  
+footer {
+  height: 25px;
+  padding: 5px 40px;  
+  font-size: 8px;
+  line-height: 11px;
+} 
+
+.footer-wraper{
+  float: none;
+  /*color: #ffffff;*/
+}
+
+.footer-copyright {
+  float: left;
+}
+
+.footer-menu {
+  display: none;
+}
+
+.footer-designer {
+  float: right;
+  padding: 0;
+}
+
+  .hat-area {
+    display: none;
+  }
+  
+ .search-area {
+   display: none;   
+ }
+ 
+.main-left {
+  display: none;
+  
+}
+
+.main-center {
+  float: none;
+  /*display: inline;
+  width: 494px;*/
+  margin: auto;
+}
+
+.main-right {
+  display: none;
+  /*float: right;
+  display: inline;
+  width: 210px;
+  margin-right: 16px;
+  padding-left: 23px;*/
+  
+}
+ }
